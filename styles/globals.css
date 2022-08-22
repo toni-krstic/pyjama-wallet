@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #333333;
+    min-width: 470px;
+}
+
+:root {
+    --toastify-color-light: #889696;
+    --toastify-color-dark: #889696;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-progress-dark: #FAFAC6;
+    --toastify-color-progress-info: #FAFAC6;
+    --toastify-color-progress-success: #FAFAC6;
+    --toastify-color-progress-warning: #FAFAC6;
+    --toastify-color-progress-error: #FAFAC6;
+    --toastify-text-color-dark: #FAFAC6;
+    --toastify-text-color-info: #FAFAC6;
+    --toastify-text-color-success: #FAFAC6;
+    --toastify-text-color-warning: #FAFAC6;
+    --toastify-text-color-error: #FAFAC6;
+    --toastify-spinner-color: #333333;
+    --toastify-spinner-color-empty-area: #FAFAC6;
+}
+
+.Toastify__toast {
+    border-radius: 0.5rem;
+    border-color: #FAFAC6;
+    border-width: 1px;
+}
